@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How Safe Is San Francisco Now? A 20-Year Crime Retrospective"
+title: "How Safe Is SF Now?"
 ---
 
 <style>
@@ -15,7 +15,7 @@ title: "How Safe Is San Francisco Now? A 20-Year Crime Retrospective"
 
   h1 {
     color: #2c3e50;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-align: center;
     margin-bottom: 0.2rem;
   }
@@ -23,7 +23,7 @@ title: "How Safe Is San Francisco Now? A 20-Year Crime Retrospective"
   p em {
     display: block;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     font-size: 1.2rem;
     color: #555;
   }
@@ -40,6 +40,7 @@ title: "How Safe Is San Francisco Now? A 20-Year Crime Retrospective"
   h2 {
     color: #1a1a1a;
     margin-top: 0;
+    font-size: 1.6rem;
   }
 
   ul {
@@ -56,23 +57,79 @@ title: "How Safe Is San Francisco Now? A 20-Year Crime Retrospective"
 </style>
 
 <h1>How Safe Is SF Now?</h1>
-<p><em>A 20-Year Crime Retrospective in San Francisco</em></p>
+<p><em>A 20-Year Crime Retrospective</em></p>
 
 <section>
-  <h2>1. Introduction</h2>
-  <p>We explore long-term patterns in San Francisco's crime data to evaluate public safety over time.</p>
+  <h2>Introduction</h2>
+  <Using>Crime often feels like a constant. But has San Francisco actually become more or less dangerous over time? Using over two decades of crime data, we take a closer look at how patterns have shifted — both in terms of volume and geography. This story draws on a publicly available dataset from the San Francisco Police Department, covering over two decades of reported crimes from 2003 to 2024. The data includes incident-level records with information on date, time, location, police district, and crime category. For this analysis, we focus specifically on a subset of offenses often referred to as “focus crimes” — including assault, burglary, robbery, larceny/theft, drug violations, and similar high-impact categories. By analyzing these incidents across time and space, we aim to better understand how the city’s safety landscape has evolved — and where risk still lives.</p>
 </section>
 
 <section>
-  <h2>2. Key Visualizations</h2>
-  <p>Coming soon: Interactive charts, maps, and comparisons.</p>
+  <h2>Total Reported Crime by Year</h2>
+  <p>Over the past two decades, San Francisco's reported focus crimes — offenses like assault, burglary, larceny, vandalism, and drug violations — have followed a trajectory that tells a deeper story than a simple rise or fall.</p>
+  <p>In 2017, these crimes reached their apex, recording just over 90,000 incidents. It was a year that stood out not just statistically, but socially — a time when the city grappled with intense housing pressures, growing inequality, and shifting enforcement priorities. Whether this spike reflected an actual surge in criminal activity or a shift in reporting and policing remains an open question, but the data leaves little doubt: 2017 was the city’s most crime-heavy year in two decades.</p>
+  <p>What followed, however, is perhaps more surprising. Crime rates began to drop in the years after 2017, and then in 2020, they plunged. That dramatic dip aligns with the onset of the COVID-19 pandemic — a moment when San Francisco, like much of the world, went into lockdown. With businesses shuttered and public life on pause...</p>
 </section>
 
 <section>
-  <h2>3. Team Contributions</h2>
-  <ul>
-    <li><strong>Arun Kumar Dhuraisamy</strong> – Data cleaning, temporal analysis, narrative writing</li>
-    <li><strong>Sarah Abigail Tauro</strong> – Spatial analysis, mapping, visuals</li>
-    <li><strong>Chinmay Prasad Dongarkar</strong> – Web integration, layout design, interactivity</li>
-  </ul>
+    <h2>Crime Trends After 2017</h2>
+    <p>Crime opportunities likely diminished. This sharp but temporary decrease in 2020 appears more as a disruption than a correction — a data blip grounded in real-world behavioral change.</p>
+    <p>The real story emerges in what came next. Unlike some cities where crime rebounded post-pandemic, San Francisco's focus crime numbers remained lower. By 2024, they had dropped more than 33% from their 2017 peak.</p>
+    <p>This trend raises compelling questions: Has the city become genuinely safer? Are we witnessing the effects of long-term policy shifts, technological deterrents, or evolving community dynamics? Or could changes in crime reporting and classification be influencing the apparent decline?</p>
+    <p>While the dataset alone can't answer these questions definitively, the pattern is clear. San Francisco's focus crime rates are trending down — not just in the short term, but across nearly a decade.</p>
+    <p>But if crime is falling overall, a more urgent question remains: where is it still happening? Are some neighborhoods still carrying a disproportionate share of the burden? To understand that, we need to move beyond the timeline — and turn to the map.</p>
 </section>
+  
+<section>
+    <h2>Where is Crime Concentrated in the City?</h2>
+    <p>While San Francisco’s focus crime totals have clearly declined since their peak in 2017, the more interesting question is: where has that change actually happened?</p>
+    <p>After all, citywide trends don’t tell us whether the same neighborhoods are improving — or simply being replaced by new ones.</p>
+    <p>This map offers a spatial breakdown of how crime patterns have shifted across the city. It compares geolocated incidents from 2017 and 2024 using three categories:</p>
+    <ul>
+      <li><strong>Persistent hotspots</strong> – where crime was reported in both years</li>
+      <li><strong>Improved areas</strong> – locations that only appeared in 2017</li>
+      <li><strong>Newly unsafe zones</strong> – areas that only appear in 2024</li>
+    </ul>
+    <p>What emerges is a portrait of uneven progress. Persistent hotspots — marked in red — are heavily clustered in downtown San Francisco, especially around the Tenderloin, SoMa, and the eastern edge of the Mission.</p>
+</section>
+
+<section>
+    <h2>Spatial Patterns of Change</h2>
+    <p>
+      Some neighborhoods, like the Mission, remain deeply affected — appearing as persistent hotspots both in 2017 and 2024. These zones continue to represent the core of San Francisco’s long-standing public safety challenges.
+    </p>
+    <p>
+      Encouragingly, large swaths of the western half of the city — including the Richmond, Sunset, and southern residential districts — show notable improvement. Once prominent in the 2017 data, these zones now report far fewer incidents.
+    </p>
+    <p>
+      Yet crime hasn't simply disappeared — it’s relocated. A third group of emerging hotspots — new in 2024 — includes areas along the northern waterfront, Bayview, and the city's periphery. These locations hint at a reshaping of risk and signal where policy and prevention efforts might now turn their gaze.
+    </p>
+</section>
+  
+<section>
+    <h2>District Disparities: Mapping the Weight of Crime</h2>
+    <p>
+      While maps reveal changes at the street level, San Francisco’s administrative divisions tell a broader story. The city’s police districts aren’t just geographic — they reflect how resources are allocated, how crime is reported, and how communities are served.
+    </p>
+    <p>
+      By analyzing total incident counts across districts, we see a consistent imbalance. Certain areas — particularly the Tenderloin and Southern districts — carry a disproportionate share of crime. Others, such as Richmond or Taraval, remain relatively stable.
+    </p>
+    <p>
+      These differences matter. They shape everything from officer presence to community perception. Recognizing these disparities is a step toward equitable resource distribution and targeted policy responses.
+    </p>
+</section>
+  
+<section>
+    <h2>Conclusion: The Shape of Safety</h2>
+    <p>
+      Crime in San Francisco isn’t static — it’s shifting in volume, in form, and in space. Over the past two decades, the city has seen encouraging reductions in focus crime. But that overall progress masks pockets of persistence, areas where crime continues to concentrate.
+    </p>
+    <p>
+      The data suggests real improvement. But it also points to continued complexity — of neighborhoods under pressure, of emerging risk zones, and of the challenge in crafting safety that is both broad and deep.
+    </p>
+    <p>
+      San Francisco’s crime story isn’t just about numbers — it’s about place. And only by understanding those places can we truly begin to build a safer city.
+    </p>
+</section>
+  
+  

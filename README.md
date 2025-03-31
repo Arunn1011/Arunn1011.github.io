@@ -57,6 +57,6 @@ To run and view the website locally:
 
 2. Run it locally:
 
-  ```bash
-  bundle exec jekyll serve
-  ```
+   ```bash
+   bundle exec jekyll serve
+   ```

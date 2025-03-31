@@ -62,7 +62,8 @@ title: "02806 - Social Data Analysis and Visualization"
     }
 </style>
 
-<div class="overlay">
+<!-- <div class="overlay"> 
+
   <h1>How Safe Is San Francisco Now?</h1>
   <p><em>A 20-Year Crime Retrospective</em></p>
 
@@ -192,4 +193,174 @@ title: "02806 - Social Data Analysis and Visualization"
       key to building a safer, more equitable San Francisco.
     </p>
   </section>
+</div> -->
+
+<div class="overlay">
+  <h1>How Safe Is SF Now? A 20-Year Crime Retrospective</h1>
+
+  <h2>Introduction</h2>
+  <p style="text-align: justify;">
+    Crime often feels like a constant. But <strong>has San Francisco actually become more or less dangerous over time?</strong>
+    Using over two decades of crime data, we take a closer look at how patterns have shifted — both in terms of volume and geography.
+  </p>
+  <p style="text-align: justify;">
+    This story draws on a publicly available dataset from the San Francisco Police Department, covering reported crimes from
+    <strong>2003 to 2024</strong>. The data includes incident-level records across time, location, and crime categories.
+    <strong>We focus on “focus crimes”</strong> — such as assault, burglary, robbery, larceny/theft, and drug violations.
+    By analyzing these incidents through both spatial and temporal lenses, we uncover how the city’s safety landscape has evolved —
+    and where risks still persist.
+  </p>
+
+  <h2>Crime Peaks and Pandemic Dips</h2>
+  <p style="text-align: justify;">
+    Over time, San Francisco’s focus crimes followed a dynamic trajectory.
+    <strong>In 2017, reported crimes peaked with over 90,000 incidents</strong> — a year marked by housing crises, rising inequality,
+    and shifting enforcement priorities. Was this surge due to more crime or more reporting? While that remains debatable,
+    the data confirms: <strong>2017 was the city’s most crime-heavy year in two decades.</strong>
+  </p>
+  <p style="text-align: justify;">
+    Crime rates began to fall after 2017 — and then, in 2020, they plunged.
+    <strong>This dramatic dip aligns with the COVID-19 pandemic</strong> and its global lockdown. Businesses shuttered, public spaces emptied,
+    and crime opportunities diminished. Yet this disruption proved more than temporary.
+  </p>
+  <p style="text-align: justify;">
+    <strong>By 2024, focus crimes dropped over 33% from their 2017 peak.</strong> Unlike other cities that rebounded, San Francisco sustained its decline.
+    This invites deeper questions: Is this a result of long-term reforms, evolving communities, or just reclassification?
+    The data alone can't say — but <strong>the downward trend is undeniable.</strong>
+  </p>
+
+  <!-- Trend Chart -->
+  <div style="text-align: center; margin: 2rem 0;">
+    <img src="assets/images/Focus_crime_trends_in SF.png" alt="Focus Crime Trends in SF"
+         style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <p style="color: #666; font-size: 0.9rem;">Figure: Yearly trends in reported focus crimes (2003–2024)</p>
+  </div>
+
+  <h2>Where Is Crime Concentrated?</h2>
+  <p style="text-align: justify;">
+    While total crime has declined since 2017, <strong>the geographic story reveals uneven progress.</strong> Our hotspot analysis compares
+    geolocated incidents in 2017 and 2024 using three categories:
+  </p>
+  <ul style="text-align: justify;">
+    <li><strong>Persistent hotspots</strong>: areas with crime in both years (e.g., Tenderloin, SoMa, Eastern Mission)</li>
+    <li><strong>Improved areas</strong>: locations that had crime in 2017 but not in 2024 (e.g., Richmond, Sunset)</li>
+    <li><strong>New hotspots</strong>: areas with crime in 2024 but not in 2017 (e.g., northern waterfront, Bayview)</li>
+  </ul>
+  <p style="text-align: justify;">
+    <strong>Persistent hotspots, marked in red, highlight zones of chronic vulnerability.</strong> Improved areas show real reductions — not just in numbers but in space.
+    However, crime hasn’t vanished — <strong>it has relocated</strong>. The emergence of new hotspots signals a quiet reshaping of urban risk.
+  </p>
+
+  <!-- Hotspot Map -->
+  <div style="text-align: center; margin: 2rem 0;">
+    <iframe src="assets/images/focus_crime_hotspot_comparison.html"
+            width="100%" height="600px" frameborder="0"
+            style="border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.1);">
+    </iframe>
+    <p style="color: #666; font-size: 0.9rem;">
+      Figure: Spatial comparison of crime hotspots in 2017 vs. 2024
+    </p>
+  </div>
+
+  <h2>District Disparities: Mapping the Weight of Crime</h2>
+  <p style="text-align: justify;">
+    San Francisco’s police districts aren’t just administrative borders — they shape how the city enforces safety and allocates resources.
+    <strong>From 2003 to 2024, the data shows stark disparities.</strong> Southern, Central, and Mission districts consistently record the highest crime loads,
+    with Southern emerging as a particularly overburdened hotspot.
+  </p>
+  <p style="text-align: justify;">
+    <strong>The nature of crimes also varies</strong>: larceny, vehicle theft, and burglary dominate citywide, while drug violations peak in Tenderloin,
+    and robbery/assault persist in Mission and Northern. Conversely, districts like Park, Richmond, and Taraval see lower crime totals,
+    though they’re not immune.
+  </p>
+  <p style="text-align: justify;">
+    <strong>This spatial imbalance is more than statistical — it reflects real differences in safety and service.</strong>
+    As San Francisco plans for policing and reform, <strong>district-level inequities must be central to that conversation.</strong>
+  </p>
+
+  <!-- Districts Chart -->
+  <div style="text-align: center; margin: 2rem 0;">
+    <iframe src="assets/images/focus_crime_districts.html"
+            width="100%" height="600px" frameborder="0"
+            style="border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.1);">
+    </iframe>
+    <p style="color: #666; font-size: 0.9rem;">
+      Figure: Total reported focus crimes by police district
+    </p>
+  </div>
+
+  <h2>Conclusion: Reckoning with Uneven Safety</h2>
+  <p style="text-align: justify;">
+    Over the last 20 years, <strong>San Francisco’s crime landscape has changed not just in scale — but in shape.</strong>
+    The city has seen a meaningful decline in focus crimes since the 2017 peak, accelerated by the COVID-era disruption.
+  </p>
+  <p style="text-align: justify;">
+    But <strong>this progress isn’t universal</strong>. Some neighborhoods remain persistently vulnerable. Others have improved.
+    And a few new ones are stepping into the spotlight. At the district level, the disparity is clearer:
+    <strong>a handful of areas shoulder most of the city’s crime burden — and the responsibility for safety.</strong>
+  </p>
+  <p style="text-align: justify;">
+    This is not just a story of crime reduction — it’s about <strong>how risk and accountability are distributed in a changing city.</strong>
+    To move forward, San Francisco must address these structural imbalances.
+    <strong>Crime may be down overall — but for many communities, the work is far from over.</strong>
+  </p>
 </div>
+
+<section style="margin-top: 3rem;">
+  <h2 style="text-align: center; margin-bottom: 1rem;">Team Contributions</h2>
+
+  <div style="
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    ">
+    <!-- Contributor 1 -->
+    <div style="
+        flex: 1 1 250px;
+        background: #f9f9f9;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        max-width: 300px;
+        text-align: center;
+      ">
+      <h3 style="margin-bottom: 0.5rem;">Arun Kumar Dhuraisamy</h3>
+      <p style="font-size: 0.9rem; color: #555;">
+        Add contribution here
+      </p>
+    </div>
+
+    <!-- Contributor 2 -->
+    <div style="
+        flex: 1 1 250px;
+        background: #f9f9f9;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        max-width: 300px;
+        text-align: center;
+      ">
+      <h3 style="margin-bottom: 0.5rem;">Sarah Abigail Tauro</h3>
+      <p style="font-size: 0.9rem; color: #555;">
+        Add contribution here
+      </p>
+    </div>
+
+    <!-- Contributor 3 -->
+    <div style="
+        flex: 1 1 250px;
+        background: #f9f9f9;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        max-width: 300px;
+        text-align: center;
+      ">
+      <h3 style="margin-bottom: 0.5rem;">Chinmay Prasad Dongarkar</h3>
+      <p style="font-size: 0.9rem; color: #555;">
+        Add contribution here
+      </p>
+    </div>
+  </div>
+</section>

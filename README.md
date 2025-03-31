@@ -55,7 +55,7 @@ To run and view the website locally:
    cd Arunn1011.github.io
    ```
 
-2. Run it locally:
+2. Start the Jekyll server to serve the website locally:
 
    ```bash
    bundle exec jekyll serve

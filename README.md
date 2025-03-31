@@ -1,4 +1,4 @@
-# How Safe Is SF Now?  
+# How Safe Is San Francisco Now?  
 ## A 20-Year Crime Retrospective  
 **Assignment 2 – Social Data Analysis and Visualization**  
 **Group 21**

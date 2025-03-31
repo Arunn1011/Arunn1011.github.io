@@ -53,3 +53,10 @@ To run and view the website locally:
    ```bash
    git clone https://github.com/Arunn1011/Arunn1011.github.io.git
    cd Arunn1011.github.io
+   ```
+
+2. Run it locally:
+
+  ```bash
+  bundle exec jekyll serve
+  ```
